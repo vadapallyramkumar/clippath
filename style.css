@@ -234,6 +234,9 @@ figure figcaption {
         padding: 1rem;
         font-size: 0.8rem;
     }
+    #main, #layer {
+        width: 50%;
+    }
 }
 @media screen and (max-width: 425px) {
     .cont {
@@ -265,5 +268,18 @@ figure figcaption {
     }
     .right-container {
         height: 30%;
+    }
+    #main, #layer {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 320px) {
+    #main, #layer {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 375px) {
+    #main, #layer {
+        width: 60%;
     }
 }
