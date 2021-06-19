@@ -46,8 +46,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid; 
-    background-image: url(./Images/Captain.png);
-    background-size: 100% 100%;
+    background-image: url(./Images/Clippath_Background.png);
+    background-size: cover;
     background-position: center;
     clip-path: polygon(50% 0%,100% 0,100% 50%,100% 100%,50% 100%,0 100%,0 50%,0 0)
 }
